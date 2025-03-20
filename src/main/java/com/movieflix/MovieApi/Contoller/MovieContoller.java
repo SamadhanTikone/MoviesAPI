@@ -1,17 +1,7 @@
 package com.movieflix.MovieApi.Contoller;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-// import com.movieflix.MovieApi.Entity.Movie;
-// import com.movieflix.MovieApi.Repository.MovieRepo;
-
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 
 
 
@@ -34,8 +24,12 @@ public class MovieContoller {
     //     return "Done";
     // }
     
+    
+    //controller
+
     @GetMapping("/hello")
     public String getMethodName() {
+
         return new String("Hello World");
     }
     
