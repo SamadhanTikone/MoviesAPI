@@ -28,6 +28,13 @@ public class MovieContoller {
     //controller
 
     @GetMapping
+    public String getHello() {
+
+        return new String("Hello World");
+    }
+
+
+    @GetMapping("/hello")
     public String getMethodName() {
 
         return new String("Hello World");
