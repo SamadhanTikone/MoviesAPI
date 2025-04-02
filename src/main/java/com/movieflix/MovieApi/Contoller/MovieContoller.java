@@ -27,7 +27,7 @@ public class MovieContoller {
     
     //controller
 
-    @GetMapping("/hello")
+    @GetMapping
     public String getMethodName() {
 
         return new String("Hello World");
