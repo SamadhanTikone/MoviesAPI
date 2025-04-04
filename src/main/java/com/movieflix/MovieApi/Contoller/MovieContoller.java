@@ -37,7 +37,7 @@ public class MovieContoller {
     @GetMapping("/hello")
     public String getMethodName() {
 
-        return new String("Hello World");
+        return new String("Hey, You Deployed your first SpringBoot Application on GCP");
     }
     
 }
